@@ -48,6 +48,15 @@
 <pre><code>
 git clone --depth=16 https://github.com/angular/angular-phonecat.git
 </code></pre>
+ 이 명령어는 현재 디렉토리에서 angular-phonecat 디렉토리를 생성합니다.
+ 
+ > --depth=16은 마지막 16개의 커밋만 내려받는 옵션입니다. 이 옵션은 다운로드를 좀더 작고 빠르게 해 줍니다.
+
+ 현재 디렉토리에서 angular-phonecat으로 이동합니다.
+ 
+<pre><code>
+gcd angular-phonecat
+</code></pre>
  
 
  
