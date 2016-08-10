@@ -33,7 +33,7 @@
  https://docs.angularjs.org/tutorial/step_00 
 
  ## Working with the code
- 이 튜토리얼을 따라갈 수도 있고 로컬에서 코드를 수정할 수 있습니다. 이번엔 실제로 테스팅 툴을 사용하여, angular code를 작성할 수 있습니다. 
+ 이 튜토리얼을 따라갈 수도 있고 로컬에서 코드를 수정할 수 있습니다. 실제로 테스팅 툴을 사용하여, angular code를 작성할 수 있습니다. 
  
  튜토리얼은 소스코드관리를 위해 GIT을 기반으로 합니다. 튜토리얼에서는 git에 대해서 설치, 실행, 몇몇의 git명령어만 알면 됩니다.
  
@@ -55,8 +55,32 @@ git clone --depth=16 https://github.com/angular/angular-phonecat.git
  현재 디렉토리에서 angular-phonecat으로 이동합니다.
  
 <pre><code>
-gcd angular-phonecat
+cd angular-phonecat
 </code></pre>
+ 
+ 튜토리얼 설명에서에서 나오는 모든 명령어는 angular-phonecat 디렉토리내에서 실행되는 것을 전제로 합니다.
+ 
+ ## Node.js 설치
+ 사전에 설정된 로컬 웹서버와 테스트툴을 사용하기 원한다면 Node.js v4+(http://nodejs.org/)가 필요합니다.
+ https://nodejs.org/en/download/ 에서 사용하는 운영체제용 인스톨러를 다운받을 수 있습니다.
+ 
+ 아래의 명령어를 통해 설치된 node.js 버젼을 확인할 수 있습니다.
+<pre><code>
+node --version
+</code></pre>
+ 데비안기반의 배포판에서는 node라는 유틸리티가 존재하기 때문에 충돌이 날 수도 있습니다. 그래서 node를 nodejs로 변경하는 nodejs-legasy apt package  설치합니다.
+ <pre><code>
+apt-get install nodejs-legacy npm
+nodejs --version
+npm --version
+</code></pre>
+> 로컬 환경에서 다른 node.js 버젼을 실행하기 원한다면, Node Version Manager(nvm) (https://github.com/creationix/nvm)나 윈도우용 Node Version Manager을 설치하기를 바랍니다.
+
+ Node.js가 로컬머신에 설치가 되었다면, 아래 명령어를 실행함으로 tool dependencies를 다운로드 받을수 있습니다.
+  <pre><code>
+npm install
+</code></pre>
+
  
 
  
