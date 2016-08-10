@@ -80,7 +80,12 @@ npm --version
   <pre><code>
 npm install
 </code></pre>
-
+ 이 명령어는 angular-phonecat의 package.json파일을 읽어 node_modules 디렉토리에 아래와 같은 툴을 다운로드 합니다.
+ # Bower - client-side code package manger
+ # Http-Server - simple local static web server
+ # Karma - unit test runner
+ # Protractor - E2E test runner
+ 
  
 
  
